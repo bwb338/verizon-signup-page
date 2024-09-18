@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up for Verizon Internet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+        }
+        .plans div {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 12px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form button:hover {
+            background-color: #218838;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Get Lightning-Fast Verizon Internet Today!</h1>
+        <p>Join millions of satisfied customers and enjoy speeds up to 1Gbps.</p>
+    </header>
+
+    <section>
+        <h2>Why Choose Verizon Internet?</h2>
+        <ul>
+            <li>Reliable internet with 99.9% uptime</li>
+            <li>Blazing-fast speeds up to 1Gbps</li>
+            <li>No data caps – unlimited streaming and browsing</li>
+            <li>24/7 customer support</li>
+            <li>Easy setup and free installation</li>
+        </ul>
+    </section>
+
+    <section class="plans">
+        <h2>Choose Your Plan</h2>
+        <div>
+            <h3>Basic Plan</h3>
+            <p>$39.99/month</p>
+            <p>Speeds up to 200Mbps</p>
+        </div>
+        <div>
+            <h3>Standard Plan</h3>
+            <p>$59.99/month</p>
+            <p>Speeds up to 500Mbps</p>
+        </div>
+        <div>
+            <h3>Premium Plan</h3>
+            <p>$79.99/month</p>
+            <p>Speeds up to 1Gbps</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sign Up Now and Get Free Installation!</h2>
+        <p>Enter your details below to start your Verizon Internet experience today.</p>
+        <form action="/submit_form" method="post">
+            <input type="text" id="name" name="name" placeholder="Full Name" required><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <input type="text" id="address" name="address" placeholder="Installation Address" required><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Verizon Internet. All rights reserved. <a href="/terms">Terms and Conditions</a> | <a href="/privacy">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
